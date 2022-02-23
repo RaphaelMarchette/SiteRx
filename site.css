@@ -37,7 +37,8 @@ a {
 }
 
 .logo2 {
-	width: 200px;
+	min-width: 9rem;
+	max-width: 15%;
 	margin:0px 10px 70px;
 	display: inline-block;
 	position: absolute;
@@ -84,6 +85,7 @@ section {
 	width: 85%;
 }
 
+
 .w {
 	background-color: var(--cor-preta);
 	color: var(--cor-azul);
@@ -95,7 +97,6 @@ section {
 	padding: 10px;
 	margin: 0px 0px 10px 0px;
 	box-shadow: 3px 4px 5px #191970
-
 }
 
 .w:hover {
@@ -106,7 +107,7 @@ section {
 	margin: 20px 0px 0px 0px;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	width: 55%;
+	width: 60%;
 }
 
 
