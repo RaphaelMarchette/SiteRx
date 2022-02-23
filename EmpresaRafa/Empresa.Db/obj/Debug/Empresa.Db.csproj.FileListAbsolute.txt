@@ -1,0 +1,16 @@
+C:\Users\Impacta\Documents\Visual Studio 2017\Projects\Empresa\Empresa.Db\bin\Debug\Empresa.Db.dll
+C:\Users\Impacta\Documents\Visual Studio 2017\Projects\Empresa\Empresa.Db\bin\Debug\Empresa.Db.pdb
+C:\Users\Impacta\Documents\Visual Studio 2017\Projects\Empresa\Empresa.Db\bin\Debug\Empresa.Models.dll
+C:\Users\Impacta\Documents\Visual Studio 2017\Projects\Empresa\Empresa.Db\bin\Debug\Empresa.Models.pdb
+C:\Users\Impacta\Documents\Visual Studio 2017\Projects\Empresa\Empresa.Db\obj\Debug\Empresa.Db.csprojResolveAssemblyReference.cache
+C:\Users\Impacta\Documents\Visual Studio 2017\Projects\Empresa\Empresa.Db\obj\Debug\Empresa.Db.dll
+C:\Users\Impacta\Documents\Visual Studio 2017\Projects\Empresa\Empresa.Db\obj\Debug\Empresa.Db.pdb
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\bin\Debug\Empresa.Db.dll
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\bin\Debug\Empresa.Db.pdb
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\bin\Debug\Empresa.Models.dll
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\bin\Debug\Empresa.Models.pdb
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\obj\Debug\Empresa.Db.csproj.AssemblyReference.cache
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\obj\Debug\Empresa.Db.csproj.CoreCompileInputs.cache
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\obj\Debug\Empresa.Db.csproj.CopyComplete
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\obj\Debug\Empresa.Db.dll
+C:\Users\rapha\Desktop\EmpresaRafa\Empresa.Db\obj\Debug\Empresa.Db.pdb
