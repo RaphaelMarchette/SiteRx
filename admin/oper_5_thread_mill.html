@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt"></html>
-<html>
+{% extends 'modelo.html' %}
+{% block titulo %} 	<title>RX 2022 | Oper Rosca Int</title> {% endblock %}
 
-<head>
-	<meta charset="UTF-8">
-	<title>RX 2022 | Oper Rosca Int</title>
-	<link rel="shortcut icon" href="static/imagens/Imagens_Operacao/maquina_transp.png" type="image/x-icon" />
-    	<link rel="stylesheet" href="static/css/rx.css" />
-	<link rel="stylesheet" href="static/css/forms.css" />
-</head>
-
-<body>
-    <header>
-
-        <img alt="maquina" class="maq" src="static/imagens/Imagens_Operacao/maquina_transp.png" />
+{% block header %}
+<a href="/admin/">
+	<img alt="bt_voltar" class="bt_voltar" src="/static/imagens/Imagens_Operacao/voltar.png" /></a>
+{% endblock %}
     
-        <img alt="logo_rx" class="logo_rx" src="static/imagens/Imagens_Operacao/rx_transp.png" />
-    
-        <a class="logo_rx_cnc">CNC Machining</a>
-
-	<a href="home.html">
-		<img alt="bt_voltar" class="bt_voltar" src="static/imagens/Imagens_Operacao/voltar.png" /></a>
-
-    </header>
-
-    <main>
+{% block conteudo %}
 <section>
 
 	<a>	Rosca Interna	</a>
@@ -116,27 +98,4 @@
 </form>
 
 </section >
-    </main>
-
-    <footer>
-        <p> RX 2022 CNC machining solutions</p>
-        <ul class="media-list">
-            <li>
-                <a class="media-link facebook" href="https://www.facebook.com/" target="blank">Facebook</a>
-            </li>
-            <li>
-                <a class="media-link instagram" href="https://www.instagram.com/" target="blank">Instagram</a>
-            </li>
-            <li>
-                <a class="media-link linkedin" href="https://www.linkedin.com/edu/" target="blank">Linkedin</a>
-            </li>
-            <li>
-                <a class="media-link twitter" href="https://twitter.com/" target="blank">Twitter</a>
-            </li>
-            <li>
-                <a class="media-link youtube" href="https://www.youtube.com/user/GrupoImpacta/" target="blank">Youtube</a>
-            </li>
-        </ul>
-    </footer>
-</body>
-</html>
+{% endblock %}

@@ -4,9 +4,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>RX 2022 | Início</title>
+	<title>RX 2022 | Entrar</title>
 	<link rel="shortcut icon" href="static/imagens/Imagens_Operacao/maquina_transp.png" type="image/x-icon" />
     	<link rel="stylesheet" href="static/css/rx.css" />
+	<link rel="stylesheet" href="static/css/forms.css" />
 </head>
 
 <body>
@@ -20,10 +21,33 @@
 
         <a class="bt_entrar" href="entrar.html">Entrar</a>
 
+	<a href="index.html">
+		<img alt="bt_voltar" class="bt_voltar" src="static/imagens/Imagens_Operacao/voltar.png" /></a>
+
     </header>
 
     <main>
-        
+        <section>
+    <form method="POST" novalidate action="home.html">
+        <div>
+            <label class="bt_logar" for="login-usuario">Usuário</label>
+            <input class="bt_logar" type="text" id="login-usuario" name="usuario" required />
+        </div>
+        <div>
+            <label class="bt_logar" for="login-senha">Senha</label>
+            <input class="bt_logar" type="password" id="login-senha" name="senha" required />
+        </div>
+        <div class="bt_logar">
+            <label for="login-lembrar" >Lembrar de mim</label>
+            <input type="checkbox" id="login-lembrar" name="lembrar" value="SIM" />
+        </div>
+        <div>
+            <button type="submit" class="bt_acesso">
+                Fazer Login
+            </button>
+        </div>
+    </form>
+</section>
     </main>
 
     <footer>

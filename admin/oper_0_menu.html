@@ -1,0 +1,33 @@
+{% extends 'modelo.html' %}
+{% block titulo %} 	<title>RX 2022 | Operações</title> {% endblock %}
+
+
+{% block header %}
+<a href="/admin/">
+	<img alt="bt_voltar" class="bt_voltar" src="/static/imagens/Imagens_Operacao/voltar.png" /></a>
+{% endblock %}
+    
+{% block conteudo %}
+<section>
+	<a>	Criar Operações	</a>
+<div>
+	<a class="botao_menu" href="">Fresagem Perfil </a>
+
+	<a class="botao_menu" href="">Fresagem Dinamica</a>
+
+	<a class="botao_menu" href="">Furo Centro</a>
+</div>
+<div>
+	<a class="botao_menu" href="">Furar</a>
+
+	<a class="botao_menu" href="">Fresagem 4º Eixo</a>
+
+	<a class="botao_menu" href="">Contorno de Texto</a></div>
+<div>
+	<a class="alterado" href="/admin/Operacoes/RoscaInterna">Rosca Interna</a>
+
+	<a class="botao_menu" href="">Rosca Externa</a>
+
+	<a class="botao_menu" href="">Contorno 3D</a></div>
+</section>
+{% endblock %}

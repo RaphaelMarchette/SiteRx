@@ -1,0 +1,85 @@
+section.admin {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+nav.admin-menu {
+    flex: 0 0 200px;
+}
+
+nav.admin-menu a {
+    display: block;
+    border: 1px solid var(--cor-escura);
+    background-color: var(--cor-branca);
+    color: var(--cor-escura);
+    display: block;
+    padding: 5px 8px;
+    margin-bottom: -1px;
+}
+
+nav.admin-menu a:hover {
+    background-color: var(--cor-cinza-escuro);
+}
+
+section.conteudo {
+    padding: 8px;
+    flex: 1;
+}
+
+section.conteudo h2 {
+    margin: 0;
+    text-align: center;
+}
+
+div.botoes {
+    height: 35px;
+    text-align: right;
+}
+
+div.botoes .botao, table.crud .botao {
+    padding: 5px;
+}
+
+table.crud {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.crud td, table.crud th {
+    border: 1px solid var(--cor-cinza);
+    padding: 8px;
+}
+
+table.crud tr:nth-child(even){
+    background-color: var(--cor-branca);
+}
+
+table.crud tr:hover {
+    background-color: var(--cor-cinza);
+}
+
+table.crud th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: var(--cor-branca);
+}
+
+form.remover {
+    display: inline;
+}
+
+.bt_acesso {
+	border-radius: 2rem;
+	color: white;
+	font-size: 1rem;
+	width: 6rem;
+	padding: 0.8rem;
+	box-shadow: 3px 4px 5px #191970;
+	display: inline-block;
+	position: absolute;
+	right: 1rem;
+	top: 2.5rem;
+}
